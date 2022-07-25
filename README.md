@@ -1,11 +1,13 @@
 # Back-end Challenge
 
 Väljakutse tulevastele PHP-le orienteeritud DIVERSITY back-end programmeerijatele.
+
 _A challenge for future PHP-oriented DIVERSITY back-end programmers._
 
 ## Sissejuhatus (_Introduction_)
 
 Töötage välja **REST API**, mis teeb valuuta konverteerimist.
+
 _Develop a **REST API** that does currency conversion._
 
 **Spetsifikatsioonid (_Specifications_)**:
