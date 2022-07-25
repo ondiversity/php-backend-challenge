@@ -1,9 +1,5 @@
 <?php
 
-BRL > USD       BTC > EUR
-USD > BRL       EUR > BTC
-BRL > EUR       BTC > USD
-EUR > BRL       USD > BTC
 class ApiCest
 {
     public function tryApiWithoutValue(ApiTester $I)
