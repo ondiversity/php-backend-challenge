@@ -1,46 +1,64 @@
-# Back-end Challenge
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
-Väljakutse tulevastele PHP-le orienteeritud DIVERSITY back-end programmeerijatele.
+<p align="center">
+<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+</p>
 
-_A challenge for future PHP-oriented DIVERSITY back-end programmers._
+## About Laravel
 
-## Sissejuhatus (_Introduction_)
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-Töötage välja **REST API**, mis teeb valuuta konverteerimist.
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-_Develop a **REST API** that does currency conversion._
+Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-**Spetsifikatsioonid (_Specifications_)**:
+## Learning Laravel
 
-* Taotluse URL peaks olema järgmises formaadis (_The application URL should be in the following format_):
-   * http://localhost:8000/exchange/{amount}/{from}/{to}
-   * http://localhost:8000/exchange/10/BTC/EUR
-* Vastus peaks olema järgmises vormis (_The answer should be in the following format_):
-   ```json
-   {
-     "exchangeValue": 45,
-     "exchangeSimbol": "€"
-   }
-   ```
-* Konversioonid (_Conversions_):
-    * Alates BTC et EUR (_From BTC to EUR_)
-    * EUR-st BTC-sse (_From EUR to BTC_)
-    * BTC-st USD-sse (_From BTC to USD_)
-    * USD-st BTC-sse (_From USD to BTC_)
-* Nõuete valideerimiseks viiakse läbi automatiseeritud testid (_Automated tests will be run to validate the requirements_):
-   * Käivitage PHP Embedded Server: (_Start the PHP Embedded Server_): `php -S localhost:8000 index.php`
-   * Testide käivitamine (_Launch the tests_): `composer test`
-   * Käivitage lint (_Launch lint_): `composer lint`
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-## Juhised (_Instructions_)
+If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-1. Fork seda repositooriumi ja luua haru oma ees- ja perekonnanimega (näide: john-smith) (_Fork this repository and create a branch with your first and last name (example: john-smith)_).
-2. Pärast väljakutse lõpetamist looge Pull Request (_After finishing the challenge, create a Pull Request._).
- 
-*Märkus: Ärge unustage käivitada `composer test` ja `composer lint` lokaalselt.*
-_*Note: Don't forget to run `composer test` and `composer lint` locally.*_
+## Laravel Sponsors
 
-## Eeltingimused (_Prerequisites_)
+We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
 
-* PHP => 7.4
-* Objektipõhine (_Object-oriented_)
+### Premium Partners
+
+- **[Vehikl](https://vehikl.com/)**
+- **[Tighten Co.](https://tighten.co)**
+- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
+- **[64 Robots](https://64robots.com)**
+- **[Cubet Techno Labs](https://cubettech.com)**
+- **[Cyber-Duck](https://cyber-duck.co.uk)**
+- **[Many](https://www.many.co.uk)**
+- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
+- **[DevSquad](https://devsquad.com)**
+- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
+- **[OP.GG](https://op.gg)**
+- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
+- **[Lendio](https://lendio.com)**
+
+## Contributing
+
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+
+## Code of Conduct
+
+In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+
+## Security Vulnerabilities
+
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+
+## License
+
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
